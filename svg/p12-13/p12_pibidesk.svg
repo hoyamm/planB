@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161.495" height="194.387" viewBox="0 0 161.495 194.387">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2060" data-name="사각형 2060" width="161.495" height="135.975" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="p12_pibidesk" transform="translate(-879.252 -12475.252)">
+    <g id="그룹_3819" data-name="그룹 3819" transform="translate(879.252 12533.663)" style="isolation: isolate">
+      <g id="그룹_3818" data-name="그룹 3818">
+        <g id="그룹_3817" data-name="그룹 3817" clip-path="url(#clip-path)">
+          <path id="패스_7222" data-name="패스 7222" d="M194.269,145.8H32.774v20.1H50.9V281.777H176.142V165.9h18.127Z" transform="translate(-32.774 -145.802)" fill="#9d6d4f"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_5604" data-name="그룹 5604" transform="translate(-656.875 177.939)">
+      <rect id="사각형_2061" data-name="사각형 2061" width="3.074" height="39.965" transform="translate(1615.337 12315.759)" fill="#4d4d4d"/>
+      <rect id="사각형_2062" data-name="사각형 2062" width="20.494" height="2.601" transform="translate(1606.628 12353.122)" fill="#001a1a"/>
+      <path id="패스_7223" data-name="패스 7223" d="M108.033,118.122h0a7.708,7.708,0,0,1-7.686-7.686v-6.148a7.686,7.686,0,0,1,15.371,0v6.148a7.708,7.708,0,0,1-7.686,7.686" transform="translate(1508.842 12200.711)" fill="#001a1a"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlanBee</title>
+  <!-- web font -->
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-std.css" />
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- icon -->
+  <script src="https://kit.fontawesome.com/5ff8e4f443.js" crossorigin="anonymous"></script>
+  <!-- main.js -->
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="layout">
+    <div id="p01" class="page"></div>
+    <div id="p02" class="page"></div>
+    <div id="p03" class="page"></div>
+    <div id="p04" class="page"></div>
+    <div id="p05" class="page"></div>
+    <div id="p06" class="page"></div>
+    <div id="p07" class="page"></div>
+    <div id="p08" class="page"></div>
+    <div id="p09" class="page"></div>
+    <div id="p10" class="page"></div>
+    <div id="p11" class="page"></div>
+    <div id="p12" class="page"></div>
+    <div id="p13" class="page"></div>
+    <div id="p14" class="page"></div>
+  </div>
+  <header>
+    <div class="w1200">
+      <h1 class="logo">Plan-Bee</h1>
+      <nav class="mainNav">
+        <ul>
+          <li><a href="#" onclick="return false;">플랜비</a></li>
+          <li><a href="#" onclick="return false;">캠페인</a></li>
+          <li><a href="#" onclick="return false;">스토어</a></li>
+          <li><a href="#" onclick="return false;">커뮤니티</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="all-menu">
+    <nav>
+      <ul class="toggle-wrap">
+        <li><a class="menu-bar toggle-trigger " href="#" onclick="return false;"><i class="fas fa-bars"></i></a></li>
+        <ul class="subNav hide toggle-area">
+          <li><a href="#" onclick="return false;">플랜비</a></li>
+          <li><a href="#" onclick="return false;">캠페인</a></li>
+          <li><a href="#" onclick="return false;">스토어</a></li>
+          <li><a href="#" onclick="return false;">커뮤니티</a></li>
+        </ul>
+      </ul>
+    </nav>
+  </div>
+  <!-- 전체 페이지 한눈에 보기 -->
+  <div class="indexBg"></div>
+  <div id="page-index" class="page-index is-active">
+    <button class="closeBtn"><a href="#" onclick="return false;"><i class="fa-solid fa-xmark fa-3x"></i></a></button>
+    <h1 class="page-title">plan-Bee</h1>
+    <h2 class="sub-title"><span class="highlight">플랜비</span>의 컨텐츠를 한눈에 보세요.</h2>
+
+    <ul class="list">
+      <li class="item d1">
+        <figure class="slide">
+          <a href="#p01" class="thumb"><img src="images/p01-02/page01.png" alt="page01"></a>
+          <figcaption class="caption">
+            <a href="#p01" class="index">page 01</a>
+            <a href="#p01" class="description">플랜비란?</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d2">
+        <figure class="slide">
+          <a href="#p02" class="thumb"><img src="images/p01-02/page02.png" alt="page02"></a>
+          <figcaption class="caption">
+            <a href="#p02" class="index">page 02</a>
+            <a href="#p02" class="description">아인슈타인과 꿀벌</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d3">
+        <figure class="slide">
+          <a href="#p03" class="thumb"><img src="images/p01-02/page03.png" alt="page03"></a>
+          <figcaption class="caption">
+            <a href="#p03" class="index">page 03</a>
+            <a href="#p03" class="description">꿀벌 소식</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d4">
+        <figure class="slide">
+          <a href="#p04" class="thumb"><img src="images/p01-02/page04.png" alt="page04"></a>
+          <figcaption class="caption">
+            <a href="#p04" class="index">page 04</a>
+            <a href="#p04" class="description">피비 소개</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d5">
+        <figure class="slide">
+          <a href="#p05" class="thumb"><img src="images/p01-02/page05.png" alt="page05"></a>
+          <figcaption class="caption">
+            <a href="#p05" class="index">page 05</a>
+            <a href="#p05" class="description">기후변화란</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d6">
+        <figure class="slide">
+          <a href="#p06" class="thumb"><img src="images/p01-02/page06.png" alt="page06"></a>
+          <figcaption class="caption">
+            <a href="#p06" class="index">page 06</a>
+            <a href="#p06" class="description">기후변화의 원인 - 자연적 원인</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d7">
+        <figure class="slide">
+          <a href="#p07" class="thumb"><img src="images/p01-02/page07.png" alt="page07"></a>
+          <figcaption class="caption">
+            <a href="#p07" class="index">page 07</a>
+            <a href="#p07" class="description">기후변화의 원인 - 인위적 원인</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d8">
+        <figure class="slide">
+          <a href="#p08" class="thumb"><img src="images/p01-02/page08.png" alt="page08"></a>
+          <figcaption class="caption">
+            <a href="#p08" class="index">page 08</a>
+            <a href="#p08" class="description">기후변화의 영향 1 </a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d9">
+        <figure class="slide">
+          <a href="#p09" class="thumb"><img src="images/p01-02/page09.png" alt="page09"></a>
+          <figcaption class="caption">
+            <a href="#p09" class="index">page 09</a>
+            <a href="#p09" class="description">기후변화의 영향 2</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d10">
+        <figure class="slide">
+          <a href="#p10" class="thumb"><img src="images/p01-02/page10.png" alt="page10"></a>
+          <figcaption class="caption">
+            <a href="#p10" class="index">page 10</a>
+            <a href="#p10" class="description">기후변화의 영향 3</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d11">
+        <figure class="slide">
+          <a href="#p11" class="thumb"><img src="images/p01-02/page11.png" alt="page11"></a>
+          <figcaption class="caption">
+            <a href="#p11" class="index">page 11</a>
+            <a href="#p11" class="description">기후변화의 영향 4</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d12">
+        <figure class="slide">
+          <a href="#p12" class="thumb"><img src="images/p01-02/page12.png" alt="page12"></a>
+          <figcaption class="caption">
+            <a href="#p12" class="index">page 12</a>
+            <a href="#p12" class="description">정부와 우리의 대응 1</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d13">
+        <figure class="slide">
+          <a href="#p13" class="thumb"><img src="images/p01-02/page13.png" alt="page13"></a>
+          <figcaption class="caption">
+            <a href="#p13" class="index">page 13</a>
+            <a href="#p13" class="description">정부와 우리의 대응 2</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="item d14">
+        <figure class="slide">
+          <a href="#p14" class="thumb"><img src="images/p01-02/page14.png" alt="page14"></a>
+          <figcaption class="caption">
+            <a href="#p14" class="index">page 14</a>
+            <a href="#p14" class="description">실천하기</a>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+  <nav class="btn">
+    <ul>
+      <li class="page"><a href="#" onclick="return false;"><i class="fas fa-copy fa-2x"></i></a></li>
+      <li class="top"><a href="#" onclick="return false;"><i class="fa-solid fa-angle-up fa-2x"></i></a></li>
+      <li class="bottom"><a href="#" onclick="return false;"><i class="fa-solid fa-angle-down fa-2x"></i></a></li>
+    </ul>
+  </nav>
+  <!-- 메인페이지 -->
+  <section class="part01">
+
+    <!-- 벌 배경 -->
+    <div class="starry"></div>
+
+    <article class="part01A">
+      <div class="w1280 clearFix">
+
+        <!-- p01 -->
+        <div class="txt-box01">
+          기후변화를 대비한 플랜은 이미 시작되었습니다.<br />
+          수많은 노력에도 기후변화는 더욱 빠르게 진행되고 있습니다.<br />
+          이제는 새로운 시각으로 다양한 방법을 제시하고 알아봐야 할 때입니다.<br />
+          더 나은 미래를 위해<br /><br />
+          Plan-B를 제시할 우리 , Plan-bee.
+        </div>
+        <div class="earth"><img src="svg/p01/p01_earth.svg" alt="earth"></div>
+        <!-- p02 -->
+        <span class="animation-wrap">
+          <div class="sunrise">
+            <div class="sun"></div>
+            <div class="txt-box02">
+              꿀벌이 사라지고 나면<br />
+              아마 4년안에 인류가 멸종할 것이다.<br />
+              <span>아인슈타인</span>
+              <div class="comma01"><img src="images/p01-02/comma01.png" alt="comma"></div>
+              <div class="comma02"><img src="images/p01-02/comma02.png" alt="comma"></div>
+            </div>
+          </div>
+          <div class="spotlight"><img src="svg/p02_sunshine.svg" alt="sunshine"></div>
+          <div class="einstein"><img src="svg/p02_einstein.svg" alt="einstein"></div>
+          <div class="moon"><img src="svg/p02_moon.svg" alt="moon"></div>
+          <div class="atom"><img src="svg/p02_atom.svg" alt="atom"></div>
+        </span>
+    </article>
+    <!-- p03 -->
+    <!-- 이상기후에 의한 꿀벌 소식 -->
+    <div class="p03_cloud">
+      <img src="svg/p03/p03_cloud01.svg" class="p03Cloud01">
+      <img src="svg/p03/p03_cloud02.svg" class="p03Cloud02">
+      <img src="svg/p03/p03_cloud03.svg" class="p03Cloud03">
+      <img src="svg/p03/p03_cloud04.svg" class="p03Cloud04">
+      <img src="svg/p03/p03_cloud05.svg" class="p03Cloud05">
+      <img src="svg/p03/p03_cloud06.svg" class="p03Cloud06">
+    </div>
+
+    <article class="part01B">
+      <div class="slide-wrap">
+        <div class="slider-button">
+          <ul>
+            <li class="prev"><a href="#" onclick="return false;"><i class="fa-solid fa-arrow-left"></i></a></li>
+            <li class="next"><a href="#" onclick="return false;"><i class="fa-solid fa-arrow-right"></i></a></li>
+          </ul>
+        </div>
+        <div class="text-slider">
+          <ul class="text-wrap clearFix">
+            <li class="txt-box03">
+              특히 기후변화는 벌의 서식<br />환경을 변하게 하는 주요<br />요인입니다.
+            </li>
+            <li class="txt-box03">
+              이상기후의 피해로 올해<br />국내 꿀벌 77억 마리가<br />보이지 않는다는 소식입니다.
+            </li>
+            <li class="txt-box03">
+              꿀벌은 온도 변화에 매우<br />민감한 변온동물입니다.<br /><br />지난겨울 기온이 갑자기<br />올라가 봄으로 착각한 벌들이<br />상당수 죽었습니다.
+            </li>
+            <li class="txt-box03">
+              이른 시기에 깨어나 활동해<br />쇠약해진 꿀벌들은 또다시<br />낮아진 외부 기온으로 인해<br />벌통으로 돌아오지 못하는<br />현상이 발생한것입니다.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- p04 -->
+  <!-- 피비소개 -->
+  <section class="part02">
+    <div class="w1280">
+      <div class="p04_pibi"><img src="svg/p04/p04_pibi.svg" alt="p04_pibi"></div>
+      <div class="txtballoon">
+        <img src="svg/p04/p04-txtballoon.svg" alt="txtballoon">
+        <div class="txt-box04">
+          안녕하세요? 저는 피비입니다.<br />
+          꿀벌이 사라지고 있는 이유,<br />
+          기후 변화에 대해 함께 알아볼까요?
+        </div>
+        <div class="comma01"><img src="svg/p04/comma01.svg" alt="comma"></div>
+        <div class="comma02"><img src="svg/p04/comma02.svg" alt="comma"></div>
+      </div>
+
+      <div class="click-bee">
+        <div class="move-bee"></div>
+        <a href="#" onclick="return false;" id="arrow" onclick="return false"><i
+            class="fas fa-long-arrow-alt-down"></i></a>
+      </div>
+      <div class="txt-box05">
+        <ul>
+          <li>비행하는 꿀벌을 찾아<br />
+            <span>화살표</span>를 '클릭' 해보세요!
+          </li>
+          <li>좋아요! <span>&#128077;</span> <br />꿀벌 친구들을 계속 찾아주세요!</li>
+        </ul>
+      </div>
+      <div class="honeycomb">
+        <div class="movehoneycomb"></div>
+      </div>
+      <div class="honey"><img src="svg/p04/p04_honey.svg" alt="honey"></div>
+      <div class="txt-box06">스크롤 하여 더 보기</div>
+      <div class="scrollBtn"><a href="#" onclick="return false;"><span></span></a></div>
+    </div>
+
+  </section>
+
+  <!-- 기후변화란 -->
+  <div class="river">
+    <!-- p05 -->
+    <section class="part03">
+      <div class="w1280">
+        <!-- p05_image -->
+        <div class="p05_pibi"><img src="svg/p05-10/p05_pibi.svg" alt="p05_pibi"></div>
+
+        <div class="climatechange"><img src="svg/p05-10/p05_climatechange.svg" alt="climatechange"></div>
+        <img src="svg/p05-10/p05_l_cloud01.svg" class="l_cloud01">
+        <img src="svg/p05-10/p05_l_cloud02.svg" class="l_cloud02">
+        <img src="svg/p05-10/p05_l_cloud03.svg" class="l_cloud03">
+        <img src="svg/p05-10/p05_l_cloud04.svg" class="l_cloud04">
+        <img src="svg/p05-10/p05_d_cloud01.svg" class="d_cloud01">
+        <img src="svg/p05-10/p05_d_cloud02.svg" class="d_cloud02">
+
+        <div class="exhaust">
+          <img src="svg/p05-10/p05_exhaust01.svg" class="exhaust01">
+          <img src="svg/p05-10/p05_exhaust02.svg" class="exhaust02">
+          <img src="svg/p05-10/p05_exhaust03.svg" class="exhaust03">
+          <img src="svg/p05-10/p05_exhaust04.svg" class="exhaust04">
+          <img src="svg/p05-10/p05_exhaust05.svg" class="exhaust05">
+          <img src="svg/p05-10/p05_exhaust06.svg" class="exhaust06">
+          <img src="svg/p05-10/p05_exhaust07.svg" class="exhaust07">
+          <img src="svg/p05-10/p05_exhaust08.svg" class="exhaust08">
+        </div>
+
+        <img src="svg/p05-10/p05_bird01.svg" class="bird01">
+        <img src="svg/p05-10/p05_bird02.svg" class="bird02">
+
+        <div class="line-container">
+          <img src="svg/p05-10/p05_river.svg" alt="river">
+        </div>
+      </div>
+
+      <div class="txtbox txt00">
+        <div class="txt-title">기후변화란</div>
+        <div class="txt">
+          " 전지구 대기의 조성을 변화시키는 <span>인간의 활동이 직접적 또는 간접적으로 원인</span>이
+          되어 일어나고, 충분한 기간 동안 관측된 <span>자연적인 기후변동성에 추가하여 일어나는
+            기후의 변화</span> " 라고 기후변화협약(UNFCCC)에서 정의하고있습니다.
+        </div>
+      </div>
+
+      <!-- 기후변화의 원인 -->
+      <!-- p06 -->
+      <!-- p06_image -->
+      <div class="p06_pibi"><img src="svg/p05-10/p06_pibi.svg" alt="p06_pibi"></div>
+      <div class="volcano-wrap">
+        <div class="volcano-bub">
+          <img class="bub01" src="svg/p05-10/p06_bub01.svg" alt="">
+          <img class="bub02" src="svg/p05-10/p06_bub02.svg" alt="">
+          <img class="bub03" src="svg/p05-10/p06_bub03.svg" alt="">
+          <img class="bub04" src="svg/p05-10/p06_bub04.svg" alt="">
+          <img class="bub05" src="svg/p05-10/p06_bub05.svg" alt="">
+        </div>
+        <div class="volcano-gas">
+          <img class="gas01" src="svg/p05-10/p06_gas01.svg" alt="">
+          <img class="gas02" src="svg/p05-10/p06_gas02.svg" alt="">
+          <img class="gas03" src="svg/p05-10/p06_gas03.svg" alt="">
+          <img class="gas04" src="svg/p05-10/p06_gas04.svg" alt="">
+          <img class="gas05" src="svg/p05-10/p06_gas05.svg" alt="">
+        </div>
+        <div class="volcanoSmoke">
+          <img src="svg/p05-10/p06_gasbody.svg" alt="">
+          <div class="volcanoSmoke01"></div>
+          <div class="volcanoSmoke02"></div>
+          <div class="volcanoSmoke03"></div>
+          <div class="volcanoSmoke04"></div>
+          <div class="volcanoSmoke05"></div>
+          <div class="volcanoSmoke06"></div>
+          <div class="volcanoSmoke07"></div>
+          <div class="volcanoSmoke08"></div>
+          <div class="volcanoSmoke09"></div>
+        </div>
+        <div class="volcano-spark">
+          <img src="svg/p05-10/p06_spark.svg" alt="">
+        </div>
+        <div class="volcanoBody">
+          <img src="svg/p05-10/p06_volcanobody.svg" alt="">
+          <div class="volcanoTop">
+            <div class="ma01"></div>
+            <div class="ma02"></div>
+            <div class="ma03"></div>
+            <div class="ma04"></div>
+          </div>
+        </div>
+      </div>
+
+      <img src="svg/p05-10/p06_tree01.svg" class="p06_tree01">
+      <img src="svg/p05-10/p06_tree02.svg" class="p06_tree02">
+      <img src="svg/p05-10/p06_tree03.svg" class="p06_tree03">
+      <img src="svg/p05-10/p06_tree04.svg" class="p06_tree04">
+      <img src="svg/p05-10/p06_tree05.svg" class="p06_tree05">
+
+      <div class="title t01">
+        <h2>기후변화의 원인</h2>
+        <h3>자연적 원인 · 인위적 원인</h3>
+      </div>
+
+      <div class="txtbox txt01">
+        <div class="txt-title">자연적인 원인</div>
+        <div class="txt">
+          기후변화는 <span>기후시스템 요소의 변화와 요소간의 상호작용</span>으로 발생합니다.
+          외적 요소에 의한 기후변화의 대표적인 예로는 화산분화에 의한 성층권의 에어로졸 증가,
+          태양 활동의 변화, 태양과 지구의 천문학적인 상대위치 변화 등이 있습니다.<br /><br />
+          외적 요인 없이도 기후시스템은 자연적으로 변할 수 있는데, 이는 <span>기후시스템의
+            5가지 주요 구성요소(온도, 습도, 강수, 풍속, 낮 길이) 및 대기권, 수권, 빙권,
+            지권, 생물권</span> 각 요소들이 각기 상호 작용하여 끊임없이 변화하기 때문입니다.
+        </div>
+      </div>
+
+      <!-- p07 -->
+      <!-- p07_image -->
+      <div class="p07_pibi"><img src="svg/p05-10/p07_pibi.svg" alt="p07_pibi"></div>
+
+      <div class="bulid-wrapper">
+        <div class="cloud">
+          <img class="cloud01" src="svg/p07/cloud.svg" alt="svg">
+        </div>
+        <div class="smoke">
+          <img class="smoke01" src="svg/p07/pom01.svg" alt="svg">
+          <img class="smoke02" src="svg/p07/pom02.svg" alt="svg">
+          <img class="smoke03" src="svg/p07/pom03.svg" alt="svg">
+          <img class="smoke1" src="svg/p07/ppom01.svg" alt="svg">
+          <img class="smoke2" src="svg/p07/ppom02.svg" alt="svg">
+          <img class="smoke3" src="svg/p07/ppom03.svg" alt="svg">
+          <img class="smoke4" src="svg/p07/ppom04.svg" alt="svg">
+        </div>
+        <div class="black">
+          <img src="svg/p07/black.svg" alt="svg">
+          <div class="building"><img src="svg/p07/building.svg" alt="svg"></div>
+        </div>
+        <div class="pop">
+          <div class="pop01" alt="svg"></div>
+          <div class="pop02" alt="svg"></div>
+          <div class="pop03" alt="svg"></div>
+          <div class="pop04" alt="svg"></div>
+          <div class="pop05" alt="svg"></div>
+        </div>
+        <div class="other-wave">
+          <div class="wave wave01"></div>
+          <div class="wave wave02"></div>
+          <div class="wave wave03"></div>
+          <div class="trash">
+            <div class="trash01"><img src="svg/p07/trash01.svg" alt="svg"></div>
+            <div class="trash02"><img src="svg/p07/trash02.svg" alt="svg"></div>
+            <div class="trash03"><img src="svg/p07/trash03.svg" alt="svg"></div>
+            <div class="trash04"><img src="svg/p07/trash04.svg" alt="svg"></div>
+          </div>
+          <div class="wave wave04"></div>
+        </div>
+
+      </div>
+
+
+      <img src="svg/p05-10/p07_tree01.svg" class="p07_tree01">
+      <img src="svg/p05-10/p07_tree02.svg" class="p07_tree02">
+
+      <div class="txtbox txt02">
+        <div class="txt-title">인위적인 원인</div>
+        <div class="txt">
+          <span>인간 활동</span>, 특히 공장이나 가정에서의 화석연료 연소와 생물체의 연소 등은 대기
+          구성 성분에 영향을 주는 <span>온실가스와 에어로졸</span>을 생산하여 온실가스를 증가시키고,
+          대기 중 에어로졸에 의해 태양 복사에너지 반사와 구름의 광학적 성질변화(산란효과에
+          의한 지구 냉각화)를 일으키고 있습니다.<br /><br />
+
+          도시화와 무리한 토지개발이나 산림채취 등으로 인한 <span>토지 이용의 변화</span>는 지구 표면의
+          물리적, 생물학적 특성에 영향을 줍니다.
+        </div>
+      </div>
+
+      <!-- p08 -->
+      <!-- p08_image -->
+      <div class="p08_pibi"><img src="svg/p05-10/p08_pibi.svg" alt="p08_pibi"></div>
+      <div class="p08_mount"><img src="svg/p05-10/p08_mountain.svg" alt=""></div>
+      <div class="p08_tree01"><img src="svg/p05-10/p08_tree01.svg" alt=""></div>
+      <div class="p08_tree02"><img src="svg/p05-10/p08_tree02.svg" alt=""></div>
+      <div class="p08_tree03"><img src="svg/p05-10/p08_tree03.svg" alt=""></div>
+
+      <div class="title t02">
+        <h2>기후변화의 영향</h2>
+        <h3>자연과 사회에 미치는 영향</h3>
+      </div>
+      <div class="minibee txt03">
+        <a href="#pop01" id="arrow" onclick="return false"><i class="fas fa-long-arrow-alt-down"></i></a>
+        <div class="move-bee"></div>
+      </div>
+
+      <div class="txtbox txt03" id="pop01">
+        <h4 class="no-title">1. 수종의 변화</h4>
+        <div class="txt">
+          수목의 생육 및 생장은 온도와 수분에 크게 영향을 받는데 식물은 이동이
+          어려우므로 기후변화로 인한 영향을 더 크게 받습니다. 크리스마스 나무로
+          알려진 구상나무(지리산·한라산) 등 고산지역 침엽수종이 가장 큰 위험에 처해
+          있으며, 이미 고사 피해가 발생하고 있습니다.
+        </div>
+      </div>
+
+      <div class="minibee txt04">
+        <div class="move-bee"></div>
+        <a href="#pop02" id="arrow" onclick="return false"><i class="fas fa-long-arrow-alt-left"></i></a>
+      </div>
+
+      <div class="txtbox txt04" id="pop02">
+        <h4 class="no-title">2. 해충의 증가</h4>
+        <div class="txt">
+          매미나방 유충 대발생으로 치악산의 삼림피해가 크게 발생했으며 기후
+          변화가 심화될수록 이러한 돌발해충으로 인한 피해사례는 점차 증가할
+          것으로 예측됩니다.
+        </div>
+      </div>
+
+      <!-- p09 -->
+      <!-- p09_image -->
+      <div class="p09_pibi"><img src="svg/p05-10/p09_pibi.svg" alt="p09_pibi"></div>
+      <img src="svg/p05-10/p09_fish01.svg" class="p09_fish01">
+      <img src="svg/p05-10/p09_fish02.svg" class="p09_fish02">
+      <img src="svg/p05-10/p09_fish03.svg" class="p09_fish03">
+      <img src="svg/p05-10/p09_tree01.svg" class="p09_tree01">
+      <img src="svg/p05-10/p09_tree02.svg" class="p09_tree02">
+      <img src="svg/p05-10/p09_tree03.svg" class="p09_tree03">
+      <img src="svg/p05-10/p09_tree04.svg" class="p09_tree04">
+      <img src="svg/p05-10/p09_tractor.svg" class="p09_tractor">
+      <img src="svg/p05-10/p09_farm.svg" class="p09_farm">
+
+      <div class="minibee txt05">
+        <div class="move-bee"></div>
+        <a href="#pop03" id="arrow" onclick="return false"><i class="fas fa-long-arrow-alt-down"></i></a>
+      </div>
+      <div class="txtbox txt05" id="pop03">
+        <h4 class="no-title">3. 생물 다양성 감소</h4>
+        <div class="txt">
+          기온이 1℃ 상승하면 생물종의 30%까지 멸종될 수 있고, 3℃ 이상 상승하면
+          심각한 멸종위기가 올 수 있다고 경고하고 있습니다.
+        </div>
+      </div>
+
+      <div class="minibee txt06">
+        <div class="move-bee"></div>
+        <a href="#pop04" id="arrow" onclick="return false"><i class="fas fa-long-arrow-alt-up"></i></a>
+      </div>
+
+      <div class="txtbox txt06" id="pop04">
+        <h4 class="">4. 농산</h4>
+        <div class="txt">
+          벼 재배는 과거(1990년대)에 비해 최적 출수기가 약 5일 가량 늦어졌고
+          과일의 재배지가 이동되고 있는것으로 나타났습니다. 기온상승으로 작물의 개화
+          시기가 빨라질 경우, 기후변동으로 인한 한파, 이상저온, 폭염, 집중호우,
+          태풍 등이 끊임없이 재해를 발생시키고 농작물과 시설물 등에 피해를 입힙니다.
+        </div>
+      </div>
+
+      <!-- p10 -->
+      <!-- p10_image -->
+      <div class="p10_pibi"><img src="svg/p05-10/p10_pibi.svg" alt="p10_pibi"></div>
+      <img src="svg/p05-10/p10_fish01.svg" class="p10_fish01">
+      <img src="svg/p05-10/p10_fish02.svg" class="p10_fish02">
+      <img src="svg/p05-10/p10_fish03.svg" class="p10_fish03">
+
+      <div class="minibee txt07">
+        <div class="move-bee"></div>
+        <a href="#pop05" id="arrow" onclick="return false"><i class="fas fa-long-arrow-alt-up"></i></a>
+      </div>
+      <div class="p10_lake"><img src="svg/p05-10/p10_lake.svg" alt="lake"></div>
+      <div class="txtbox txt07" id="pop05">
+        <h4 class="">5. 수산</h4>
+        <div class="txt">
+          기후변화에 따른 수온상승으로 우리나라 바다에서 잡히는 어종에도 변화가
+          나타나고 있으며, 한류성 어중의 비율은 점차 줄어드는 대신 난류성 어종과
+          아열대성 어종들의 비율이 높아지게 될 것입니다.
+        </div>
+      </div>
+
+      <div class="minibee txt08">
+        <div class="move-bee"></div>
+        <a href="#pop06" id="arrow" onclick="return false"><i class="fas fa-long-arrow-alt-down"></i></a>
+      </div>
+      <div class="p10_wave"><img src="svg/p05-10/p10_wave.svg" alt="wave"></div>
+      <div class="txtbox txt08" id="pop06">
+        <h4 class="">6. 해수면의 높이</h4>
+        <div class="txt">
+          해수면 높이가 상승하면 도시가 많이 형성된 해안 저지대의 침수뿐만 아니라
+          해안 침식 및 해일에 의한 피해(범람)도 증대될 것이고 해수의 범람과 침입으로
+          바다 주변 농지의 염분 피해가 증가하고, 연안 지하수를 식수나 농업용수로 사용하는것도 어려워질 것으로 보입니다.
+        </div>
+      </div>
+
+    </section>
+
+  </div><!-- river 닫는 태그 -->
+
+  <!-- 기후변화의 영향 -->
+  <section class="part04 w1280">
+    <!-- p11 -->
+    <!-- p11_image -->
+    <div class="p11_pibi"><img src="svg/p11/p11_pibi.svg" alt="p11_pibi"></div>
+    <div class="cycle">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1280.235" height="349.445" viewBox="0 0 1280.235 349.445">
+        <path id="p11_cycle"
+          d="M-583,1144.03c-56.51,0-155.162,46.919-155.162,155.158,0,109.8,95.589,155.288,155.163,155.288,56.851,0,154.977-41.91,154.977-155.288,0-91.9,75.309-155.158,154.976-155.158,80.434,0,155.084,61.728,155.084,155.223,0,122.505,101.98,155.223,155.067,155.223s155.407-39.558,155.407-155.288S297.188,1144.03,347.9,1144.03c82.67,0,155.17,64.792,155.17,155.158A154.718,154.718,0,0,1,347.9,1454.476c-84.093,0-155.391-66.42-155.391-155.288,0-88.324-70.66-155.158-155.407-155.158-79.588,0-154.653,66.834-154.653,155.223,0,87.781-71.068,155.223-155.5,155.223-75.182,0-154.976-62.846-154.976-155.288C-428.023,1186.848-529.213,1144.03-583,1144.03Z"
+          transform="translate(757.663 -1124.53)" fill="none" stroke="#dceef7" stroke-miterlimit="10"
+          stroke-width="39" />
+      </svg>
+    </div>
+    <div class="title t03">
+      <h2>기후변화의 영향</h2>
+      <h3>기후의 변화로 인한 재난 / 재해 증가</h3>
+    </div>
+
+    <div class="txtbox-wrap">
+
+      <div class="txtbox">
+        지구온난화로 인해 지구의 평균 기온이
+        높아지면 많은 양의 물이 증발하여
+        땅이 점점 가물게 됩니다. 가뭄은 산불을
+        불러 일으킵니다.
+      </div>
+
+      <div class="txtbox">
+        산불로 나무 속에 저장되어있던 이산화
+        탄소(온실가스)가 방출되며 온실가스는
+        지구에 들어온 태양에너지와 증발된
+        많은 양의 물을 대기에 가두는 역할을
+        합니다.
+      </div>
+
+      <div class="txtbox">
+        대기에 수증기가 쌓이게 되고 뜨거운
+        대기는 더 많은 수증기를 품게 됩니다.
+        그 결과 태풍의 양이 증가하고, 폭우와
+        같은 극단적인 강수의 발생빈도가 증가
+        하게 됩니다.
+      </div>
+
+      <div class="txtbox">
+        대기에 쌓인 에너지는 사라지는 것이
+        아니라 형태만 변하여 세상 곳곳에 가뭄
+        과 홍수를 일으켜 언제, 어디서 터질지
+        모르는 극단적인 날씨를 불러옵니다.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 정부와 우리의 대응 -->
+  <section class="part05">
+    <div class="line-bg01"></div>
+    <div class="line-bg02"></div>
+    <!-- p12 -->
+    <div class="w1280">
+      <img src="svg/p12-13/p12_pibidesk.svg" class="p12_pibidesk">
+      <div class="p12_pibi"><img src="svg/p12-13/p12_pibi.svg" alt="p12_pibi"></div>
+      <img src="svg/p12-13/p12_windgenerator.svg" class="p12_wind">
+      <img src="svg/p12-13/p12_wind01.svg" class="wind01">
+      <img src="svg/p12-13/p12_wind02.svg" class="wind02">
+      <img src="svg/p12-13/p12_fan01.svg" class="fan01">
+      <img src="svg/p12-13/p12_fan02.svg" class="fan02">
+      <img src="svg/p12-13/p12_electriccity.svg" class="p12_city">
+      <img src="svg/p12-13/p12_lamppost.svg" class="p12_lamppost">
+      <img src="svg/p12-13/p12_tree01.svg" class="p12_tree01">
+      <img src="svg/p12-13/p12_tree02.svg" class="p12_tree02">
+
+      <div class="title t04">
+        <h2>정부와 우리의 대응</h2>
+        <h3>정부의 대응 · 우리 일상 생활에서의 대응</h3>
+      </div>
+
+      <div class="txtbox txt01">
+        <div class="txt-title">" 지속 가능한 저탄소 녹색사회 구현 "</div>
+        <div class="txt">
+          2030년까지 <span>온실가스 배출량을 5억 3,600만 톤으로 줄이고</span>, 기후변화
+          적응 주류화로 <span>2℃ 온도 상승에 대비</span>하며 &ast;파리협정 이행을 위한 전
+          부문 역량을 강화하는 것을 목표로 하고있습니다.
+        </div>
+        <div class="subtxt">
+          &ast; 파리협정(Paris Agreement) : 신기후체제의 근간이 되는 협정으로, 주요 요소별로 2020년
+          이후 적용될 원칙과 방향을 담은 합의문
+        </div>
+        <button type="button" class="txtboxBtn">핵심 전략 보기</button>
+        <ul class="hidden-txt">
+          <li>1. 저탄소 사회로의 전환 추진하기</li>
+          <li>2. 기후변화 적응체계 구축하기</li>
+          <li>3. 기후변화대응 기반 강화하기</li>
+        </ul>
+      </div>
+
+      <!-- p13 -->
+      <div class="p13_pibi"><img src="svg/p12-13/p13_pibi.svg" alt="p13_pibi"></div>
+      <div class="p13_recycle"><img src="svg/p12-13/p13_recycle.svg" alt=""></div>
+      <div class="p13_lamp02"><img src="svg/p12-13/p13_lamppost02.svg" alt=""></div>
+      <div class="p13_planting"><img src="svg/p12-13/p13_planting.svg" alt=""></div>
+      <div class="p13_car"><img src="svg/p12-13/p13_electriccar.svg" alt=""></div>
+
+      <div class="txtbox txt02">
+        <div class="txt-title">" 지속적인 관심과 실천 "</div>
+        <div class="txt">
+          앞으로 국민생활과 밀접한 연관이 있는 이들 부문에서의 <span>온실가스 감축은 가장 중요한 대응책</span>이 될 수 있습니다.
+          우리 일상 생활에서 지구온난화 방지의 첫걸음은 <span>에너지와 자원을 절약하고 산림을 보호</span>하는 것이며, 지속적인 관심과 실천이 필요합니다.
+        </div>
+        <button type="button" class="txtboxBtn"> 실천 방안 보기</button>
+        <ul class="hidden-txt">
+          <li>1. 환경친화적 상품으로의 소비양식 전환</li>
+          <li>2. 에너지와 자원절약의 실천</li>
+          <li>3. 폐기물 재활용 적극 참여</li>
+          <li>4. 나무 심고 가꾸기</li>
+          <li>5. 탄소배출 저감에 동참</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 마지막 페이지 -->
+  <section class="part06">
+
+    <!-- P14 -->
+    <!-- p14_image -->
+    <article class="together w1280">
+      <div class="p14_pibi"><img src="svg/p14/p14_pibi.svg" alt="p14_pibi"></div>
+      <img src="svg/p14/p14_minibee01.svg" class="p14_bee01">
+      <img src="svg/p14/p14_minibee02.svg" class="p14_bee02">
+      <img src="svg/p14/p14_minibee03.svg" class="p14_bee03">
+      <img src="svg/p14/p14_minibee04.svg" class="p14_bee04">
+      <img src="svg/p14/p14_minibee05.svg" class="p14_bee05">
+      <img src="svg/p14/p14_minibee06.svg" class="p14_bee06">
+
+      <!-- 피비친구들 찾아줘서 고마워요 땡큐 -->
+      <div class="txtbox">제 친구들을 찾아줘서 고마워요!</div>
+    </article>
+
+    <article class="sign w1280">
+      <div class="sign01">
+        <img src="svg/p14/p14_sign.svg" alt="signBtn">
+        <a href="#" onclick="return false;">캠페인 참여하기</a>
+      </div>
+      <div class="sign02">
+        <img src="svg/p14/p14_sign.svg" alt="signBtn">
+        <a href="#" onclick="return false;">친환경 제품<br />구경하기</a>
+      </div>
+      <div class="sign03">
+        <img src="svg/p14/p14_sign.svg" alt="signBtn">
+        <a href="#" onclick="return false;">친환경 생활<br />공유하기</a>
+      </div>
+    </article>
+
+    <!-- footer -->
+    <footer>
+      <div class="w1280">
+
+        <h1 class="btmLogo">Plan-Bee</h1>
+        <div class="btmTxt">기후변화에 대해 알아보고 그에 대한 대응책과 함께 실천할 방법을 만들어가고 공유하는 사이트입니다</div>
+        <div class="btm-wrap">
+          <nav class="btmNav">
+            <ul>
+              <li><a href="#" onclick="return false;">이용약관</a></li>
+              <li><a href="#" onclick="return false;">개인정보처리방침</a></li>
+            </ul>
+          </nav>
+          <address class="copyright"> © plan-Bee all rights reserved</address>
+        </div>
+        <nav class="sns">
+          <ul>
+            <li><a href="#" onclick="return false;"><img src="svg/p14/p14_instagram_icon.svg" alt="인스타그램"></a></li>
+            <li><a href="#" onclick="return false;"><img src="svg/p14/p14_facebook_icon.svg" alt="페이스북"></a></li>
+            <li><a href="#" onclick="return false;"><img src="svg/p14/p14_kakaotalk_icon.svg" alt="카카오톡"></a></li>
+            <li><a href="#" onclick="return false;"><img src="svg/p14/p14_tweeter_icon.svg" alt="트위터"></a></li>
+          </ul>
+        </nav>
+        <nav class="f-site">
+          <ul>
+            <li><a href="#" onclick="return false;">관련페이지<i class="fas fa-caret-down"></i></a>
+              <ul class="f-site-subNav">
+                <li><a href="http://www.climate.go.kr/home/" target="_blank">기후정보포털</a></li>
+                <li><a href="https://www.gihoo.or.kr/portal/kr/main/index.do" target="_blank">기후변화홍보포털</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </section>
+
+  <!-- 벌 배경  -->
+  <script>
+    function stars() {
+      const count = 100;
+      const starry = document.querySelector('.starry');
+      var i = 0;
+
+      while (i < count) {
+        const star = document.createElement('i');
+        const x = Math.floor(Math.random() * window.innerWidth)
+        const y = Math.floor(Math.random() * window.innerHeight)
+
+        const size = Math.random() * 4;
+        star.style.left = x + 'px';
+        star.style.top = y + 'px';
+        star.style.width = 1 + size + 'px';
+        star.style.height = 1 + size + 'px';
+
+        const duration = Math.random() * 2;
+
+        star.style.animationDuration = 2 + duration + 's';
+        star.style.animationDelay = duration + 's';
+
+        starry.appendChild(star);
+        i++
+      }
+    }
+    stars();
+  </script>
+
+  <script>
+    $(document).ready(function () {
+
+      //햄버거 버튼을 누르면 서브 메뉴가 나옵니다.
+      $('.all-menu .menu-bar').click(function () {
+        $('.all-menu .subNav').toggle();
+      })
+
+      //btn의 버튼을 누르면 top or bottom 으로 갑니다.
+      $('.btn a').click(function () {
+        let clickNumber = $(this).parent('li').attr('class')
+
+        if (clickNumber == 'top') { // 맨 위로가기
+          $('html, body').animate({ scrollTop: 0 }, 600)
+        }
+        if (clickNumber == 'bottom') { // 맨 밑으로 가기
+          $('html, body').animate({ scrollTop: ($('footer').offset().top) }, 800)
+        }
+        if (clickNumber == 'page') { //전체페이지 다시보기 
+          $('.page-index, .indexBg').show()
+          //$('.indexBg').show()
+          $('.btn, .all-menu').hide()
+        }
+      })
+      //전체페이지 다시보기의 닫기 버튼을 누르면 닫힙니다.
+      $('.page-index .closeBtn, .indexBg').click(function () {
+        $('.page-index, .indexBg').fadeOut(100)
+        //$('.indexBg').hide()
+        $('.btn, .all-menu').show()
+      })
+
+      //텍스트 슬라이드 화살표를 누르면 색이 바뀝니다.
+      $('.slider-button a').click(function () {
+        $('.slider-button a').removeClass()
+        $(this).addClass('active')
+      })
+      //텍스트 슬라이드 화살표를 누르면 그 방향으로 무한 반복 슬라이드 합니다.
+      $(function () {
+        $('.test-wrap li:last').prependTo('.text-wrap');
+        //next 누르면 좌로 이동
+        $('.next').click(function () {
+          $('.text-wrap').animate({ marginLeft: '-=400px' }, 500, function () {
+            $('.text-wrap li:first').appendTo('.text-wrap');
+            $('.text-wrap').stop().css('margin-left', '-400px');
+          })
+        })
+        //prev 누르면 우로 이동
+        $('.prev').click(function () {
+          $('.text-wrap').animate({ marginLeft: '+=400px' }, 500, function () {
+            $('.text-wrap li:last').prependTo('.text-wrap');
+            $('.text-wrap').stop().css('margin-left', '-400px');
+          })
+        })
+      })
+
+      //화살표 버튼 클릭시 내용 나오기
+      $('.part02 #arrow').click(function () {
+        $('.part02 .txt-box05 ul').find('li').eq(0).hide()
+        $('.part02 .txt-box05 ul').find('li').eq(1).show()
+      })
+
+      //정부의 대응에서 버튼을 누르면 내용이 나타납니다.
+      $('.part05 button').click(function () {
+        $(this).siblings('.hidden-txt').stop().slideToggle()
+      })
+
+      //관련페이지를 누르면 서브 메뉴들이 나옵니다.
+      $('.f-site').click(function () {
+        $('.f-site-subNav').stop().slideToggle();
+
+        //누르면 화살표 아이콘이 바뀝니다.
+        var changeClass = $(this).find('i').attr('class')
+
+        if (changeClass == 'fas fa-caret-down') {
+          $(this).find('i').removeClass().addClass('fas fa-caret-up')
+        } else {
+          $(this).find('i').removeClass().addClass('fas fa-caret-down')
+        }
+      })
+    })
+  </script>
+
+  <script>
+    $(window).on('scroll', function () {
+      var windowScrolltop = $(window).scrollTop();
+      console.log(windowScrolltop);
+      //100만큼 스크롤 하면 헤더가 사라지고 all-menu가 나옵니다.
+      if (windowScrolltop > 100) {
+        $('header').fadeOut(100)
+        $('.all-menu').fadeIn(100)
+        $('.all-menu .subNav').fadeOut(100)
+        $('.btn').fadeIn(100)
+      } else {
+        $('.all-menu').fadeOut(100)
+        $('.all-menu .subNav').fadeOut(100)
+        $('header').fadeIn(100)
+        $('.btn').fadeOut(100)
+      }
+      //스크롤시 특정영역에 가면 all-menu의 색상이 바뀝니다.
+      if (windowScrolltop >= 1080) {
+        $('.btn a').addClass('turning-black').removeClass('turning-white')
+      } else {
+        $('.btn a').removeClass('turning-black').addClass('turning-white')
+      }
+      if (windowScrolltop >= 2080) {
+        $('.all-menu a').addClass('turning-black').removeClass('turning-white')
+      } else {
+        $('.all-menu a').removeClass('turning-black').addClass('turning-white')
+      }
+      //특정페이지에 도달하면 에니메이션이 움직입니다.
+      if (windowScrolltop >= 800 && windowScrolltop < 2080) {
+        $('.part01 .animation-wrap').children().css("animation-play-state", 'running');
+        $('.part01 .sunrise').children().css("animation-play-state", 'running');
+        $('.part01 .sunrise .sun').css({ offset: "path('M0,0S117.839,169.2,287.605,268.023,752.826,384.99,752.826,384.99') auto" });
+      }
+      if (windowScrolltop >= 3100 && windowScrolltop < 4320) {
+        $('.part02 .honeycomb').find('.movehoneycomb').css("animation-play-state", 'running');
+      }
+      if (windowScrolltop >= 8640 && windowScrolltop < 9720) {
+        $('.part03 .p09_tractor').css("animation-play-state", 'running');
+      }
+      if (windowScrolltop >= 9720 && windowScrolltop < 10800) {
+        $('.part03 .p10_wave').css("animation-play-state", 'running');
+      }
+    })
+  </script>
+
+  <script>
+    // part03
+    // 화살표를 클릭하면 텍스트박스가 나타납니다.
+    let target = document.querySelectorAll('#arrow'); // 클릭할 버튼요소를 변수 처리(no.1)
+    let targetID;  // 버튼 클릭시 버튼에 해당하는 팝업의 id값 담는 변수(no.2)
+
+    // 팝업 열기
+    for (let i = 0; i < target.length; i++) {
+      target[i].addEventListener('click', function () { //팝업을 노출시키기 위해 특정버튼이나 영역을 클릭해야함. 이 때 .addEventListener 메소드를 사용
+        targetID = this.getAttribute('href');
+        document.querySelector(targetID).style.display = 'block';
+      });
+    }
+  </script>
+
+  <script>
+    // p04_'스크롤 하여 더 보기' 버튼을 클릭하면 다음 페이지로 이동합니다.
+    const scrollBtn = document.querySelectorAll(".scrollBtn");
+    const part03 = document.querySelectorAll(".part03");
+
+    const firstTop = part03[0].offsetTop;
+
+    scrollBtn[0].onclick = function () {
+      window.scroll({
+        top: firstTop, behavior: "smooth"
+      });
+    };
+  </script>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
